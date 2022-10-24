@@ -24,7 +24,7 @@ class Footer extends Component {
                 onClick={() =>
                   this.props.applyPickedLanguage(
                     window.$primaryLanguage,
-                    window.$secondaryLanguageIconId
+
                   )
                 }
                 style={{ display: "inline" }}
@@ -45,8 +45,8 @@ class Footer extends Component {
                 }
                 style={{ display: "inline" }}
               >
-                <span
-                  className="iconify language-icon"
+                <span 
+                  className=""
                   data-icon="twemoji-flag-for-flag-poland"
                   data-inline="false"
                   id={window.$secondaryLanguageIconId}
